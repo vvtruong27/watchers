@@ -358,7 +358,7 @@ class ProblemASolver:
         
         while True:
             try:
-                user_input = input("\n Bắt đầu navigation? (y/N): ").strip().lower()
+                user_input = input("\n Ready to start? (y/N): ").strip().lower()
                 if user_input in ['y', 'yes']:
                     rospy.loginfo(" NGƯỜI DÙNG XÁC NHẬN: BẮT ĐẦU!")
                     return True
