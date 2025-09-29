@@ -1,0 +1,45 @@
+{
+  "problem": "A",
+  "shortest_path": [
+    7,
+    3,
+    4,
+    5,
+    6
+  ],
+  "path_length": 4,
+  "directions": [
+    {
+      "step": 1,
+      "from_node": 7,
+      "from_name": "G(7)",
+      "to_node": 3,
+      "to_name": "C(3)",
+      "direction": "N"
+    },
+    {
+      "step": 2,
+      "from_node": 3,
+      "from_name": "C(3)",
+      "to_node": 4,
+      "to_name": "D(4)",
+      "direction": "E"
+    },
+    {
+      "step": 3,
+      "from_node": 4,
+      "from_name": "D(4)",
+      "to_node": 5,
+      "to_name": "E(5)",
+      "direction": "E"
+    },
+    {
+      "step": 4,
+      "from_node": 5,
+      "from_name": "E(5)",
+      "to_node": 6,
+      "to_name": "F(6)",
+      "direction": "E"
+    }
+  ]
+}

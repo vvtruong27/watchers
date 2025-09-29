@@ -1,0 +1,328 @@
+{
+    "id": "d6adbea3-3bf7-4444-8c31-aab81bc8d170",
+    "name": "Z01",
+    "mapType": "map_z",
+    "orderIndex": 0,
+    "dimensions": {
+        "width": 4,
+        "height": 5
+    },
+    "startingPositions": [
+        7
+    ],
+    "destinationPositions": [],
+    "barriersOpen": false,
+    "startTime": null,
+    "isPublic": true,
+    "nodes": [
+        {
+            "id": 1,
+            "x": 1,
+            "y": 0,
+            "type": "None",
+            "name": "A"
+        },
+        {
+            "id": 2,
+            "x": 2,
+            "y": 0,
+            "type": "None",
+            "name": "B"
+        },
+        {
+            "id": 3,
+            "x": 0,
+            "y": 1,
+            "type": "None",
+            "name": "C"
+        },
+        {
+            "id": 4,
+            "x": 1,
+            "y": 1,
+            "type": "None",
+            "name": "D"
+        },
+        {
+            "id": 5,
+            "x": 2,
+            "y": 1,
+            "type": "None",
+            "name": "E"
+        },
+        {
+            "id": 6,
+            "x": 3,
+            "y": 1,
+            "type": "End",
+            "name": "F"
+        },
+        {
+            "id": 7,
+            "x": 0,
+            "y": 2,
+            "type": "Start",
+            "name": "G"
+        },
+        {
+            "id": 8,
+            "x": 1,
+            "y": 2,
+            "type": "None",
+            "name": "H"
+        },
+        {
+            "id": 9,
+            "x": 2,
+            "y": 2,
+            "type": "Load",
+            "name": "I"
+        },
+        {
+            "id": 10,
+            "x": 3,
+            "y": 2,
+            "type": "Load",
+            "name": "J"
+        },
+        {
+            "id": 11,
+            "x": 1,
+            "y": 3,
+            "type": "None",
+            "name": "K"
+        },
+        {
+            "id": 12,
+            "x": 2,
+            "y": 3,
+            "type": "None",
+            "name": "L"
+        },
+        {
+            "id": 13,
+            "x": 3,
+            "y": 3,
+            "type": "Load",
+            "name": "M"
+        }
+    ],
+    "edges": [
+        {
+            "id": "1-2",
+            "source": 1,
+            "target": 2,
+            "label": "E"
+        },
+        {
+            "id": "1-4",
+            "source": 1,
+            "target": 4,
+            "label": "S"
+        },
+        {
+            "id": "2-1",
+            "source": 2,
+            "target": 1,
+            "label": "W"
+        },
+        {
+            "id": "2-5",
+            "source": 2,
+            "target": 5,
+            "label": "S"
+        },
+        {
+            "id": "3-4",
+            "source": 3,
+            "target": 4,
+            "label": "E"
+        },
+        {
+            "id": "3-7",
+            "source": 3,
+            "target": 7,
+            "label": "S"
+        },
+        {
+            "id": "4-1",
+            "source": 4,
+            "target": 1,
+            "label": "N"
+        },
+        {
+            "id": "4-3",
+            "source": 4,
+            "target": 3,
+            "label": "W"
+        },
+        {
+            "id": "4-5",
+            "source": 4,
+            "target": 5,
+            "label": "E"
+        },
+        {
+            "id": "4-8",
+            "source": 4,
+            "target": 8,
+            "label": "S"
+        },
+        {
+            "id": "5-2",
+            "source": 5,
+            "target": 2,
+            "label": "N"
+        },
+        {
+            "id": "5-4",
+            "source": 5,
+            "target": 4,
+            "label": "W"
+        },
+        {
+            "id": "5-6",
+            "source": 5,
+            "target": 6,
+            "label": "E"
+        },
+        {
+            "id": "5-9",
+            "source": 5,
+            "target": 9,
+            "label": "S"
+        },
+        {
+            "id": "6-5",
+            "source": 6,
+            "target": 5,
+            "label": "W"
+        },
+        {
+            "id": "6-10",
+            "source": 6,
+            "target": 10,
+            "label": "S"
+        },
+        {
+            "id": "7-3",
+            "source": 7,
+            "target": 3,
+            "label": "N"
+        },
+        {
+            "id": "7-8",
+            "source": 7,
+            "target": 8,
+            "label": "E"
+        },
+        {
+            "id": "8-4",
+            "source": 8,
+            "target": 4,
+            "label": "N"
+        },
+        {
+            "id": "8-7",
+            "source": 8,
+            "target": 7,
+            "label": "W"
+        },
+        {
+            "id": "8-9",
+            "source": 8,
+            "target": 9,
+            "label": "E"
+        },
+        {
+            "id": "8-11",
+            "source": 8,
+            "target": 11,
+            "label": "S"
+        },
+        {
+            "id": "9-5",
+            "source": 9,
+            "target": 5,
+            "label": "N"
+        },
+        {
+            "id": "9-8",
+            "source": 9,
+            "target": 8,
+            "label": "W"
+        },
+        {
+            "id": "9-10",
+            "source": 9,
+            "target": 10,
+            "label": "E"
+        },
+        {
+            "id": "9-12",
+            "source": 9,
+            "target": 12,
+            "label": "S"
+        },
+        {
+            "id": "10-6",
+            "source": 10,
+            "target": 6,
+            "label": "N"
+        },
+        {
+            "id": "10-9",
+            "source": 10,
+            "target": 9,
+            "label": "W"
+        },
+        {
+            "id": "10-13",
+            "source": 10,
+            "target": 13,
+            "label": "S"
+        },
+        {
+            "id": "11-8",
+            "source": 11,
+            "target": 8,
+            "label": "N"
+        },
+        {
+            "id": "11-12",
+            "source": 11,
+            "target": 12,
+            "label": "E"
+        },
+        {
+            "id": "12-9",
+            "source": 12,
+            "target": 9,
+            "label": "N"
+        },
+        {
+            "id": "12-11",
+            "source": 12,
+            "target": 11,
+            "label": "W"
+        },
+        {
+            "id": "12-13",
+            "source": 12,
+            "target": 13,
+            "label": "E"
+        },
+        {
+            "id": "13-10",
+            "source": 13,
+            "target": 10,
+            "label": "N"
+        },
+        {
+            "id": "13-12",
+            "source": 13,
+            "target": 12,
+            "label": "W"
+        }
+    ]
+}
